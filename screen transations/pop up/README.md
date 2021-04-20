@@ -7,4 +7,3 @@
 
 ![exemplo](https://github.com/ter-9001/bootstrap-exemplos/blob/master/screen%20transations/pop%20up/Screenshot_50.png)
 
-####### image-exemplo
