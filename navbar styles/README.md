@@ -6,7 +6,7 @@
 
 ## 1 - NAVBAR WITH TWO SIDE WITH IMAGE
 
-![Exemplo](Screenshot_50.jpg)
+![Exemplo](https://github.com/ter-9001/bootstrap-exemplos/blob/master/navbar%20styles/Screenshot_50.png)
 
 #### Code is on archive navbar_two_sides
 
