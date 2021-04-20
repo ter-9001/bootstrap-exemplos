@@ -1,0 +1,111 @@
+<style   type="text/css">
+
+
+#certificates{
+	
+	background-color: white;
+	padding-bottom: 50px;
+	position: fixed;
+	left: 35%;
+	top: 30%;
+	z-index: 5000;
+	display: block;
+	
+	
+	
+}
+
+
+
+
+</style>
+
+
+<script type="text/javascript" src="file:///C:/Users/Aluno/Downloads/workspace/bootstrap/jquery.min.js"> </script>
+<link rel="stylesheet" type="text/css" href="file:///C:/Users/Aluno/Downloads/workspace/bootstrap/bootstrap/css/bootstrap.css" >
+
+<script>
+
+   
+  $(function(){
+	  $("#close_certificates").click(function(){
+		  $("#certificates").fadeOut("slow"); 
+	  });
+  });
+  
+
+
+</script>
+
+
+
+
+
+
+<section id="certificates" >
+
+<div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+      
+    </div>
+    <div class="col-6 text-center" style="align: center;">
+      <p style="font-size: 20px;align:center;font-weight: bold;" class="nav-item">  HERE IS MY CERTIFICATE LIST </p>
+    </div>
+    <div class="col" style="align: right;">
+     <button type="button" id="close_certificates" class="btn-close"  aria-label="Close"></button>
+    </div>
+  </div>
+
+
+
+
+<div class="container-fluid text-center">
+
+
+
+<div class="list-group" >
+
+<table class="table text-center" style="align:center">
+
+   <tbody>
+   
+      <tr>
+          <td> <a target="blank" class="list-group-item list-group-item-action"
+		  href=""> 
+		  My HTML/CSS certificate </a> </td>
+         
+             
+      </tr> 
+	  
+	  <tr>
+          <td> <a target="blank" class="list-group-item list-group-item-action"
+		  href=""> 
+		  My Git/GitHub certificate </a> </td>
+		  
+      </tr> 
+	  
+	  <tr>
+          <td> <a target="blank" class="list-group-item list-group-item-action" 
+		  href=""> 
+		  My Bootstrap certificate </a> </td>
+             
+      </tr> 
+	  
+	   <tr>
+          <td> <a target="blank" class="list-group-item list-group-item-action"
+		  href="" > 
+		  My Jquery certificate </a> </td>
+             
+      </tr> 
+   
+   </tbody>
+
+</table>
+
+</div>
+</div>
+
+
+</section>
+
